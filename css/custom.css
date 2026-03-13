@@ -1,0 +1,22 @@
+/* 1. 首页文章卡片半透明 */
+#recent-posts > .recent-post-item {
+    background: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* 2. 侧边栏卡片半透明 */
+#aside-content .card-widget {
+    background: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* 3. 点进文章后的正文页面半透明 */
+.layout > div:first-child:not(.recent-posts) {
+    background: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* 4. 让最底部的黑灰色页脚直接变成全透明 */
+#footer {
+    background: transparent !important;
+}
+#footer::before {
+    background: transparent !important;
+}
